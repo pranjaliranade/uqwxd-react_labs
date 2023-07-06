@@ -80,7 +80,8 @@ return (
         />
         <button type="submit">Add Todo</button>
         </form>
-        {todos.map((todo) => <div className="todo" key={todo.id}>
+        {todos.map((todo) => 
+        <div className="todo" key={todo.id}>
         <div className="todo-text">
         <input 
         type="checkbox" 
